@@ -1,0 +1,21 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# AWS Keys
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+
+# Docker
+*.log
+
+# VS Code
+.vscode/
+
+# Linux
+.DS_Store
