@@ -17,6 +17,8 @@ Production-Grade GitOps CI/CD Pipeline on AWS Cloud Infrastructure
 <img src="https://img.shields.io/badge/Kubernetes-Orchestration-326CE5?style=for-the-badge&logo=kubernetes"/>
 <img src="https://img.shields.io/badge/GitHub_Actions-CI/CD-2088FF?style=for-the-badge&logo=github-actions"/>
 <img src="https://img.shields.io/badge/ArgoCD-GitOps-EF7B4D?style=for-the-badge"/>
+
+    
 </p>
 
 <br>
@@ -507,9 +509,6 @@ E --> F[✅ Desired State Maintained]
 
 ---
 
-# ✅ ArgoCD Login Page
-
-📍 Replace with your ArgoCD login screenshot
 
 ---
 
