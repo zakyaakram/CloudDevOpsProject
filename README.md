@@ -8,28 +8,32 @@
 
 <br><br>
 
-<p align="center">
 <img src="https://skillicons.dev/icons?i=aws,terraform,docker,kubernetes,githubactions,ansible&theme=dark"/>
-</p>
 
-<br>
+<br><br>
 
-<p align="center">
 <img src="https://img.shields.io/badge/AWS-Cloud-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
 <img src="https://img.shields.io/badge/Terraform-IaC-7B42F6?style=for-the-badge&logo=terraform&logoColor=white"/>
 <img src="https://img.shields.io/badge/Docker-Containers-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 <img src="https://img.shields.io/badge/Kubernetes-EKS-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
 <img src="https://img.shields.io/badge/GitHub_Actions-CI/CD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"/>
 <img src="https://img.shields.io/badge/ArgoCD-GitOps-EF7B4D?style=for-the-badge"/>
-</p>
 
-<br>
+<br><br>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2200&pause=1000&color=00E5FF&center=true&vCenter=true&width=900&lines=Production-Grade+AWS+Infrastructure;Fully+Automated+CI%2FCD+Lifecycle;Cloud-Native+Kubernetes+Deployment;Scalable+Enterprise+DevOps+Architecture"/>
 
 </div>
 
----
+<br>
+
+<div align="center">
+
+### 🔹 Enterprise Cloud Infrastructure • GitOps Automation • Kubernetes Orchestration • CI/CD Pipeline
+
+</div>
+
+<br>
 
 # 📌 Project Overview
 
@@ -46,7 +50,9 @@ The platform simulates a real-world **production-grade cloud-native DevOps ecosy
 - 🐳 Containerized Workloads
 - 🚀 Scalable Cloud Architecture
 
----
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F52BA,100:38BDF8&height=3"/>
 
 # ✨ Platform Highlights
 
@@ -65,7 +71,9 @@ The platform simulates a real-world **production-grade cloud-native DevOps ecosy
 
 </div>
 
----
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F52BA,100:38BDF8&height=3"/>
 
 # 🏛️ Enterprise Architecture Overview
 
@@ -80,6 +88,7 @@ The platform simulates a real-world **production-grade cloud-native DevOps ecosy
 <br>
 
 ```mermaid
+%%{init: {'theme':'dark'}}%%
 flowchart LR
 
 A[👨‍💻 Developer Push] --> B[📂 GitHub Repository]
@@ -101,7 +110,9 @@ H --> I[🌍 AWS LoadBalancer]
 I --> J[👥 End Users]
 ```
 
----
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F52BA,100:38BDF8&height=3"/>
 
 # ☁️ AWS Infrastructure Architecture
 
@@ -109,11 +120,15 @@ I --> J[👥 End Users]
 
 ## 🏗️ Production-Style AWS Infrastructure
 
+<br>
+
 <img width="1536" height="1024" alt="AWS Architecture" src="https://github.com/user-attachments/assets/e743e56d-e2dc-4844-b47d-517690f7677e"/>
 
 </div>
 
----
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F52BA,100:38BDF8&height=3"/>
 
 # ☁️ AWS Services Used
 
@@ -132,7 +147,9 @@ I --> J[👥 End Users]
 
 </div>
 
----
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F52BA,100:38BDF8&height=3"/>
 
 # 🧱 Infrastructure as Code (Terraform)
 
@@ -144,13 +161,13 @@ I --> J[👥 End Users]
 
 </div>
 
----
+<br>
 
 The AWS infrastructure is provisioned using a **modular Terraform architecture** following Infrastructure as Code (IaC) best practices.
 
----
+<br>
 
-# 📂 Terraform Modules Structure
+## 📂 Terraform Modules Structure
 
 ```text
 terraform/
@@ -167,7 +184,9 @@ terraform/
     └── dev/
 ```
 
----
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F52BA,100:38BDF8&height=3"/>
 
 # ⚙️ Technologies Used
 
@@ -187,7 +206,9 @@ terraform/
 
 </div>
 
----
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F52BA,100:38BDF8&height=3"/>
 
 # 🔄 CI/CD & GitOps Workflow
 
@@ -199,7 +220,7 @@ terraform/
 
 </div>
 
----
+<br>
 
 # ⚙️ Continuous Integration (CI)
 
@@ -207,11 +228,12 @@ The CI pipeline is fully automated using **GitHub Actions**.
 
 Every push to the `master` branch automatically triggers the deployment workflow.
 
----
+<br>
 
 ## 🚀 CI Pipeline Flow
 
 ```mermaid
+%%{init: {'theme':'dark'}}%%
 flowchart LR
 
 A[👨‍💻 Developer Push] --> B[📂 GitHub Repository]
@@ -225,7 +247,9 @@ D --> E[🐳 Docker Image Build]
 E --> F[📦 Push Image to Amazon ECR]
 ```
 
----
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F52BA,100:38BDF8&height=3"/>
 
 # 🔄 GitOps Deployment Strategy
 
@@ -235,11 +259,13 @@ E --> F[📦 Push Image to Amazon ECR]
 
 </div>
 
+<br>
+
 ArgoCD continuously monitors Kubernetes manifests stored in GitHub and automatically synchronizes them with the EKS cluster.
 
----
+<br>
 
-# ✨ GitOps Benefits
+## ✨ GitOps Benefits
 
 ✅ Declarative Kubernetes Deployments  
 ✅ Automatic Synchronization  
@@ -248,7 +274,9 @@ ArgoCD continuously monitors Kubernetes manifests stored in GitHub and automatic
 ✅ Git-Based Change Tracking  
 ✅ Fully Automated Delivery
 
----
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F52BA,100:38BDF8&height=3"/>
 
 # ☸️ Kubernetes Deployment
 
@@ -258,9 +286,9 @@ ArgoCD continuously monitors Kubernetes manifests stored in GitHub and automatic
 
 </div>
 
----
+<br>
 
-# 🚀 Kubernetes Resources
+## 🚀 Kubernetes Resources
 
 <div align="center">
 
@@ -275,7 +303,9 @@ ArgoCD continuously monitors Kubernetes manifests stored in GitHub and automatic
 
 </div>
 
----
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F52BA,100:38BDF8&height=3"/>
 
 # 🔐 ArgoCD GitOps Deployment
 
@@ -287,9 +317,10 @@ ArgoCD continuously monitors Kubernetes manifests stored in GitHub and automatic
 
 </div>
 
----
+<br>
 
 ```mermaid
+%%{init: {'theme':'dark'}}%%
 flowchart LR
 
 A[👨‍💻 Developer Push] --> B[📂 GitHub Repository]
@@ -303,55 +334,33 @@ D --> E[📦 Deploy Updated Application]
 E --> F[✅ Desired State Maintained]
 ```
 
----
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F52BA,100:38BDF8&height=3"/>
 
 # 📸 Project Screenshots
 
 <div align="center">
 
-## ✅ GitHub Actions Pipeline
+## ⚙️ GitHub Actions Pipeline
 
-<img width="1860" height="833" alt="GitHub Actions" src="https://github.com/user-attachments/assets/84c82b3f-a082-476c-9ebd-cc09207a1441"/>
+<img width="95%" src="https://github.com/user-attachments/assets/84c82b3f-a082-476c-9ebd-cc09207a1441"/>
 
----
+<br><br>
 
-## ✅ ArgoCD Dashboard
+## 🔄 ArgoCD Application Tree
 
-<img width="1901" height="952" alt="ArgoCD Dashboard" src="https://github.com/user-attachments/assets/a8e8da5e-62c1-42bb-beb2-a8604fb95f9b"/>
+<img width="95%" src="https://github.com/user-attachments/assets/2318ba08-dcc9-465a-acf6-b13bc6166a85"/>
 
----
+<br><br>
 
-## ✅ ArgoCD Application Tree
+## 🚀 Running Application
 
-<img width="1904" height="958" alt="ArgoCD Tree" src="https://github.com/user-attachments/assets/2318ba08-dcc9-465a-acf6-b13bc6166a85"/>
-
----
-
-## ✅ Amazon EKS Cluster
-
-<img width="1890" height="715" alt="Amazon EKS" src="https://github.com/user-attachments/assets/9d1aae7f-c99d-4436-a5df-a3904cc94151"/>
-
----
-
-## ✅ Amazon ECR Repository
-
-<img width="1912" height="817" alt="Amazon ECR" src="https://github.com/user-attachments/assets/51f287a0-6441-4f06-9b61-946dd8fe41ec"/>
-
----
-
-## ✅ Amazon S3 Backend
-
-<img width="1881" height="469" alt="Amazon S3 Backend" src="https://github.com/user-attachments/assets/86c413f8-700d-4058-a3cf-58617a8ae10f"/>
-
----
-
-## ✅ Running Application
-
-<img width="1913" height="970" alt="Running Application" src="https://github.com/user-attachments/assets/9e6b0406-b451-4e69-86a0-ecd2bb09eae2"/>
+<img width="95%" src="https://github.com/user-attachments/assets/9e6b0406-b451-4e69-86a0-ecd2bb09eae2"/>
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F52BA,100:38BDF8&height=3"/>
 
 # 🪣 Terraform Remote Backend (S3)
 
@@ -361,11 +370,13 @@ E --> F[✅ Desired State Maintained]
 
 </div>
 
+<br>
+
 Terraform remote state management is configured using **Amazon S3 Backend** to provide secure and centralized infrastructure state storage.
 
----
+<br>
 
-# ✨ S3 Backend Benefits
+## ✨ S3 Backend Benefits
 
 ✅ Centralized Terraform State  
 ✅ Improved Team Collaboration  
@@ -373,7 +384,9 @@ Terraform remote state management is configured using **Amazon S3 Backend** to p
 ✅ Better State Consistency  
 ✅ Production-Style Terraform Workflow
 
----
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F52BA,100:38BDF8&height=3"/>
 
 # 🚀 Deployment Steps
 
@@ -384,15 +397,11 @@ git clone <repo-url>
 cd CloudDevOpsProject
 ```
 
----
-
 ## 2️⃣ Initialize Terraform
 
 ```bash
 terraform init
 ```
-
----
 
 ## 3️⃣ Provision AWS Infrastructure
 
@@ -400,23 +409,17 @@ terraform init
 terraform apply
 ```
 
----
-
 ## 4️⃣ Configure kubectl
 
 ```bash
 aws eks update-kubeconfig --region eu-north-1 --name <cluster-name>
 ```
 
----
-
 ## 5️⃣ Deploy Kubernetes Resources
 
 ```bash
 kubectl apply -f k8s/
 ```
-
----
 
 ## 6️⃣ Install ArgoCD
 
@@ -426,7 +429,9 @@ kubectl create namespace argocd
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 ```
 
----
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F52BA,100:38BDF8&height=3"/>
 
 # 📈 Future Improvements
 
@@ -444,7 +449,9 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 
 </div>
 
----
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F52BA,100:38BDF8&height=3"/>
 
 # 👩‍💻 Author
 
@@ -456,45 +463,11 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Cloud+Infrastructure+Engineer;DevOps+%26+GitOps+Enthusiast;AWS+%7C+Terraform+%7C+Kubernetes+%7C+Docker"/>
 
-</div>
+<br><br>
 
----
+### 🚀 Built with Scalability, Automation & DevOps Best Practices
 
-# 🏁 Final Result
-
-<div align="center">
-
-## 🚀 Enterprise Cloud-Native DevOps Ecosystem
-
-</div>
-
-This project demonstrates a complete **enterprise-grade DevOps lifecycle** using modern AWS cloud-native technologies.
-
-The workflow — from infrastructure provisioning to Kubernetes deployment — is fully automated using:
-
-- ☁️ AWS Cloud Infrastructure
-- 🏗️ Terraform Infrastructure as Code
-- 🐳 Docker Containerization
-- ⚙️ GitHub Actions CI/CD
-- ☸️ Amazon EKS Kubernetes
-- 🔄 ArgoCD GitOps Deployment
-
----
-
-# ✨ Key Achievements
-
-✅ Fully Automated CI/CD Pipeline  
-✅ GitOps-Based Continuous Deployment  
-✅ Scalable Kubernetes Architecture  
-✅ Production-Style AWS Infrastructure  
-✅ Modular Terraform Infrastructure  
-✅ Secure Cloud-Native Deployment Workflow
-
----
-
-<div align="center">
-
-## 🚀 Built with Scalability, Automation & DevOps Best Practices
+<br>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=0:0B1026,35:111827,65:0F52BA,100:38BDF8"/>
 
