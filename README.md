@@ -187,7 +187,7 @@ terraform/
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B1026,100:38BDF8&height=2"/>
 
-# 🔄 CI/CD & GitOps Workflow
+# 🔄 CI/CD & GitOps Workflow [![Deploy to EKS](https://github.com/zakyaakram/CloudDevOpsProject/actions/workflows/deploy.yml/badge.svg)](https://github.com/zakyaakram/CloudDevOpsProject/actions/workflows/deploy.yml)
 
 <div align="center">
 
