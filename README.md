@@ -24,7 +24,7 @@
 
 <div align="center">
 
-### ☁️ Enterprise Cloud Infrastructure • Kubernetes Orchestration • GitOps Automation
+###  Enterprise Cloud Infrastructure • Kubernetes Orchestration • GitOps Automation
 
 </div>
 
@@ -32,7 +32,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B1026,100:38BDF8&height=2"/>
 
-# 📌 Project Overview
+# Project Overview
 
 This project demonstrates a complete **Enterprise DevOps & GitOps Workflow** deployed on AWS using modern cloud-native technologies.
 
@@ -40,18 +40,18 @@ The infrastructure is fully provisioned using **Terraform**, the application is 
 
 The platform simulates a real-world production-grade cloud-native DevOps ecosystem focused on:
 
-- ☁️ Infrastructure Automation
-- ⚙️ CI/CD Pipeline Automation
-- ☸️ Kubernetes Orchestration
-- 🔄 GitOps Continuous Deployment
-- 🐳 Containerized Workloads
-- 🚀 Scalable Cloud Architecture
+-  Infrastructure Automation
+-  CI/CD Pipeline Automation
+-  Kubernetes Orchestration
+-  GitOps Continuous Deployment
+-  Containerized Workloads
+-  Scalable Cloud Architecture
 
 <br>
 
 <div align="center">
 
-| 🚀 Feature | ✅ Status |
+| Feature | ✅ Status |
 |---|---|
 | Automated CI/CD Pipeline | ✔️ |
 | GitOps Continuous Deployment | ✔️ |
@@ -68,7 +68,7 @@ The platform simulates a real-world production-grade cloud-native DevOps ecosyst
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B1026,100:38BDF8&height=2"/>
 
-# 🏛️ Enterprise Architecture Overview
+#  Enterprise Architecture Overview
 
 <div align="center">
 
@@ -82,30 +82,30 @@ The platform simulates a real-world production-grade cloud-native DevOps ecosyst
 %%{init: {'theme':'dark'}}%%
 flowchart LR
 
-A[👨‍💻 Developer Push] --> B[📂 GitHub Repository]
+A[ Developer Push] --> B[ GitHub Repository]
 
-B --> C[⚙️ GitHub Actions CI]
+B --> C[ GitHub Actions CI]
 
-C --> D[🐳 Docker Build]
+C --> D[ Docker Build]
 
-D --> E[📦 Amazon ECR]
+D --> E[ Amazon ECR]
 
-E --> F[🔄 ArgoCD GitOps]
+E --> F[ ArgoCD GitOps]
 
-F --> G[☸️ Amazon EKS Cluster]
+F --> G[ Amazon EKS Cluster]
 
-G --> H[📦 Kubernetes Pods]
+G --> H[Kubernetes Pods]
 
-H --> I[🌍 AWS LoadBalancer]
+H --> I[ AWS LoadBalancer]
 
-I --> J[👥 End Users]
+I --> J[ End Users]
 ```
 
 <br>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B1026,100:38BDF8&height=2"/>
 
-# ☁️ AWS Infrastructure Architecture
+# AWS Infrastructure Architecture
 
 <div align="center">
 
@@ -119,14 +119,14 @@ I --> J[👥 End Users]
 
 | AWS Service | Purpose |
 |---|---|
-| ☸️ Amazon EKS | Kubernetes Cluster Orchestration |
-| 📦 Amazon ECR | Container Image Registry |
-| 🖥️ Amazon EC2 | Bastion / Management Server |
-| 🪣 Amazon S3 | Terraform Remote Backend |
-| 🔐 IAM | Identity & Access Management |
-| 🌐 Amazon VPC | Cloud Networking Infrastructure |
-| 🌍 AWS Load Balancer | External Application Exposure |
-| 🚪 NAT Gateway | Internet Access for Private Subnets |
+|  Amazon EKS | Kubernetes Cluster Orchestration |
+|  Amazon ECR | Container Image Registry |
+|  Amazon EC2 | Bastion / Management Server |
+|  Amazon S3 | Terraform Remote Backend |
+|  IAM | Identity & Access Management |
+|  Amazon VPC | Cloud Networking Infrastructure |
+|  AWS Load Balancer | External Application Exposure |
+|  NAT Gateway | Internet Access for Private Subnets |
 
 </div>
 
@@ -134,7 +134,7 @@ I --> J[👥 End Users]
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B1026,100:38BDF8&height=2"/>
 
-# 🧱 Infrastructure as Code (Terraform)
+#  Infrastructure as Code (Terraform)
 
 <div align="center">
 
@@ -148,7 +148,7 @@ The AWS infrastructure is provisioned using a **modular Terraform architecture**
 
 <br>
 
-## 📂 Terraform Modules Structure
+##  Terraform Modules Structure
 
 ```text
 terraform/
@@ -171,15 +171,15 @@ terraform/
 
 | Category | Technology |
 |---|---|
-| ☁️ Cloud Provider | AWS |
-| 🏗️ Infrastructure as Code | Terraform |
-| 🐳 Containerization | Docker |
-| 📦 Container Registry | Amazon ECR |
-| ☸️ Orchestration | Kubernetes (EKS) |
-| ⚙️ CI/CD | GitHub Actions |
-| 🔄 GitOps | ArgoCD |
-| 🛠️ Configuration Management | Ansible |
-| 🪣 Backend State | Amazon S3 |
+|  Cloud Provider | AWS |
+|  Infrastructure as Code | Terraform |
+|  Containerization | Docker |
+|  Container Registry | Amazon ECR |
+|  Orchestration | Kubernetes (EKS) |
+|  CI/CD | GitHub Actions |
+|  GitOps | ArgoCD |
+|  Configuration Management | Ansible |
+|  Backend State | Amazon S3 |
 
 </div>
 
@@ -187,7 +187,7 @@ terraform/
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B1026,100:38BDF8&height=2"/>
 
-# 🔄 CI/CD & GitOps Workflow [![Deploy to EKS](https://github.com/zakyaakram/CloudDevOpsProject/actions/workflows/deploy.yml/badge.svg)](https://github.com/zakyaakram/CloudDevOpsProject/actions/workflows/deploy.yml)
+# CI/CD & GitOps Workflow [![Deploy to EKS](https://github.com/zakyaakram/CloudDevOpsProject/actions/workflows/deploy.yml/badge.svg)](https://github.com/zakyaakram/CloudDevOpsProject/actions/workflows/deploy.yml)
 
 <div align="center">
 
@@ -197,7 +197,7 @@ terraform/
 
 <br>
 
-## ⚙️ Continuous Integration (CI)
+##  Continuous Integration (CI)
 
 The CI pipeline is fully automated using **GitHub Actions**.
 
@@ -209,26 +209,26 @@ Every push to the `master` branch automatically triggers the deployment workflow
 %%{init: {'theme':'dark'}}%%
 flowchart LR
 
-A[👨‍💻 Developer Push] --> B[📂 GitHub Repository]
+A[ Developer Push] --> B[ GitHub Repository]
 
-B --> C[⚙️ GitHub Actions Triggered]
+B --> C[ GitHub Actions Triggered]
 
-C --> D[🔐 AWS Authentication]
+C --> D[ AWS Authentication]
 
-D --> E[🐳 Docker Image Build]
+D --> E[ Docker Image Build]
 
-E --> F[📦 Push Image to Amazon ECR]
+E --> F[ Push Image to Amazon ECR]
 ```
 
 <br>
 
-## 🔄 GitOps Deployment Strategy
+##  GitOps Deployment Strategy
 
 ArgoCD continuously monitors Kubernetes manifests stored in GitHub and automatically synchronizes them with the EKS cluster.
 
 <br>
 
-### ✨ GitOps Benefits
+### GitOps Benefits
 
 - ✅ Declarative Kubernetes Deployments
 - ✅ Automatic Synchronization
@@ -241,18 +241,18 @@ ArgoCD continuously monitors Kubernetes manifests stored in GitHub and automatic
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B1026,100:38BDF8&height=2"/>
 
-# ☸️ Kubernetes Deployment
+# Kubernetes Deployment
 
 <div align="center">
 
 | Resource | Purpose |
 |---|---|
-| 📦 Namespace | Resource Isolation |
-| 🚀 Deployment | Replica Management |
-| 🌐 Service | Internal & External Communication |
-| 🔀 Ingress | HTTP Routing |
-| 📄 Pods | Run Containerized Application |
-| ⚖️ LoadBalancer | Public Access |
+|  Namespace | Resource Isolation |
+|  Deployment | Replica Management |
+|  Service | Internal & External Communication |
+|  Ingress | HTTP Routing |
+|  Pods | Run Containerized Application |
+|  LoadBalancer | Public Access |
 
 </div>
 
@@ -262,38 +262,38 @@ ArgoCD continuously monitors Kubernetes manifests stored in GitHub and automatic
 %%{init: {'theme':'dark'}}%%
 flowchart LR
 
-A[👨‍💻 Developer Push] --> B[📂 GitHub Repository]
+A[ Developer Push] --> B[ GitHub Repository]
 
-B --> C[🔄 ArgoCD Detects Changes]
+B --> C[ ArgoCD Detects Changes]
 
-C --> D[☸️ Sync Kubernetes Manifests]
+C --> D[ Sync Kubernetes Manifests]
 
-D --> E[📦 Deploy Updated Application]
+D --> E[ Deploy Updated Application]
 
-E --> F[✅ Desired State Maintained]
+E --> F[ Desired State Maintained]
 ```
 
 <br>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B1026,100:38BDF8&height=2"/>
 
-# 📸 Project Screenshots
+#  Project Screenshots
 
 <div align="center">
 
-## ⚙️ GitHub Actions Pipeline
+## GitHub Actions Pipeline
 
 <img width="95%" src="https://github.com/user-attachments/assets/84c82b3f-a082-476c-9ebd-cc09207a1441"/>
 
 <br><br>
 
-## 🔄 ArgoCD Application Tree
+##  ArgoCD Application Tree
 
 <img width="95%" src="https://github.com/user-attachments/assets/2318ba08-dcc9-465a-acf6-b13bc6166a85"/>
 
 <br><br>
 
-## 🚀 Running Application
+##  Running Application
 
 <img width="95%" src="https://github.com/user-attachments/assets/9e6b0406-b451-4e69-86a0-ecd2bb09eae2"/>
 
@@ -301,13 +301,13 @@ E --> F[✅ Desired State Maintained]
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B1026,100:38BDF8&height=2"/>
 
-# 🪣 Terraform Remote Backend (S3)
+#  Terraform Remote Backend (S3)
 
 Terraform remote state management is configured using **Amazon S3 Backend** to provide secure and centralized infrastructure state storage.
 
 <br>
 
-### ✨ S3 Backend Benefits
+###  S3 Backend Benefits
 
 - ✅ Centralized Terraform State
 - ✅ Improved Team Collaboration
@@ -319,7 +319,7 @@ Terraform remote state management is configured using **Amazon S3 Backend** to p
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B1026,100:38BDF8&height=2"/>
 
-# 🚀 Deployment Steps
+#  Deployment Steps
 
 ## 1️⃣ Clone Repository
 
@@ -364,19 +364,19 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B1026,100:38BDF8&height=2"/>
 
-# 📈 Future Improvements
+#  Future Improvements
 
 <div align="center">
 
 | Enhancement | Status |
 |---|---|
-| 📊 Prometheus Monitoring | Planned |
-| 📈 Grafana Dashboards | Planned |
-| 📦 Helm Charts | Planned |
-| 🔒 SSL/TLS with ACM | Planned |
-| 🌍 Domain Name Integration | Planned |
-| 🔄 Blue/Green Deployment | Planned |
-| ⚖️ Horizontal Pod Autoscaling | Planned |
+|  Prometheus Monitoring | Planned |
+|  Grafana Dashboards | Planned |
+|  Helm Charts | Planned |
+|  SSL/TLS with ACM | Planned |
+|  Domain Name Integration | Planned |
+|  Blue/Green Deployment | Planned |
+|  Horizontal Pod Autoscaling | Planned |
 
 </div>
 
@@ -390,7 +390,7 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 
 # Zakya Akram
 
-### ☁️ Cloud & DevOps Engineer
+### Cloud & DevOps Engineer
 
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=18&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Cloud+Infrastructure+Engineer;DevOps+%26+GitOps+Enthusiast;AWS+%7C+Terraform+%7C+Kubernetes+%7C+Docker"/>
 
